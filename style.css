@@ -48,16 +48,15 @@ header part css start
 .header_top_first_part ul li a {
     text-decoration: none;
     color: #ffffff;
-    ;
 }
 
 .header_top_second_part {
     display: flex;
     align-items: center;
     background-color: #E02C6D;
-    width: 80px;
-    height: 25px;
-    padding: 6px 20px;
+    width: 130px;
+    height: 45px;
+    padding: 10px 20px;
     color: white;
 }
 
@@ -92,7 +91,7 @@ header part css start
 
 .header_main_first_part_div {
     background-color: #E02C6D;
-    width: 112px;
+    width: 144px;
     padding: 8px 10px;
     margin-top: 10px;
     color: white;
@@ -116,7 +115,7 @@ header part css start
 
 .header_main_second_part img {
     width: 100%;
-    transition: 1.5s;
+    transition: 1.2s;
 }
 
 .header_main_second_part img:hover {
@@ -145,7 +144,7 @@ header part css end
 
 .player {
     width: 300px;
-    height: 400px;
+    height: 450px;
     padding: 15px;
     background-color: #ffffff2c;
     border: 2px solid #f1f1f1;
@@ -236,16 +235,16 @@ header part css end
 .footer_part {
     display: flex;
     flex-direction: column;
-    width: 484px;
+    width: 60%;
     align-items: center;
     justify-content: center;
-    margin-left: 420px;
+    margin-left: 250px;
     margin-top: 105px;
     margin-bottom: 50px;
 }
 
 .footer_logo {
-    width: 80%;
+    width: 95%;
     margin-bottom: 20px;
 }
 
@@ -282,7 +281,8 @@ header part css end
     .header_top_second_part {
         width: 130px;
         height: 35px;
-        margin-left: 300px;
+        margin-left: 490px;
+        margin-top: 50px;
     }
 
     .header_top_second_part img {
@@ -308,13 +308,14 @@ header part css end
         width: 80%;
         height: 98px;
         font-size: 48px;
+        margin-bottom: 30px;
     }
 
     .header_main_first_part_div {
         width: 240px;
         height: 58px;
         padding: 15px 60px;
-        margin-top: 140px;
+        margin-top: 120px;
     }
 
     .header_main_second_part img {
@@ -337,7 +338,7 @@ header part css end
 
     .player {
         width: 80%;
-        height: 600px;
+        height: 650px;
         margin-bottom: 40px;
     }
 
@@ -378,67 +379,69 @@ header part css end
         flex-direction: column;
         margin-left: 20px;
     }
+
+
+    .half_second {
+        width: 100%
+    }
+
+    .half_second img {
+        width: 92%;
+        margin-left: 0;
+    }
+
+    .half_first {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .half_first h1 {
+        font-size: 42px;
+        color: #0A0826;
+    }
+
+    .half_first p {
+        color: #6C6C6C;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+
+    .mo_div {
+        width: 240px;
+        height: 58px;
+        padding: 15px 60px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    /* footer part  */
+
+    .footer_part {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .footer_logo {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer_icon {
+        margin-bottom: 30px;
+    }
+
+    .footer_icon a i {
+        margin-left: 8px;
+        padding: 10px 10px;
+        background-color: rgba(0, 0, 0, 0.083);
+        color: rgba(0, 0, 0, 0.446);
+        border-radius: 50%;
+    }
 }
-
-.half_second {
-    width: 100%
-}
-
-.half_second img {
-    width: 98%;
-    margin-left: 0;
-}
-
-.half_first {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.half_first h1 {
-    font-size: 42px;
-    color: #0A0826;
-}
-
-.half_first p {
-    color: #6C6C6C;
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-
-.mo_div {
-    width: 240px;
-    height: 58px;
-    padding: 15px 60px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-/* footer part  */
-
-.footer_part {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    margin-left: 0;
-    margin-top: 80px;
-    margin-bottom: 50px;
-}
-
-.footer_logo {
-    width: 90%;
-    margin-bottom: 20px;
-}
-
-.footer_icon {
-    margin-bottom: 30px;
-}
-
-.footer_icon a i {
-    margin-left: 8px;
-    padding: 10px 10px;
-    background-color: rgba(0, 0, 0, 0.083);
-    color: rgba(0, 0, 0, 0.446);
-    border-radius: 50%;
