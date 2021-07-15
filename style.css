@@ -53,6 +53,7 @@ header part css start
 .header_top_second_part {
     display: flex;
     align-items: center;
+    margin-top: 20px;
     background-color: #E02C6D;
     width: 130px;
     height: 45px;
@@ -281,7 +282,7 @@ header part css end
     .header_top_second_part {
         width: 130px;
         height: 35px;
-        margin-left: 490px;
+        margin-left: 320px;
         margin-top: 50px;
     }
 
@@ -338,7 +339,7 @@ header part css end
 
     .player {
         width: 80%;
-        height: 650px;
+        height: 580px;
         margin-bottom: 40px;
     }
 
